@@ -6,6 +6,15 @@ Implementation of [Frontegg's Hosted VueJS SDK](https://docs.frontegg.com/docs/v
 npm install
 ```
 
+```
+// main.js
+contextOptions: {
+    baseUrl: "baseUrl",
+    clientId: 'clientId'
+}
+```
+
+
 ### Compiles and hot-reloads for development
 ```
 npm run serve
