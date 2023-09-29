@@ -1,5 +1,5 @@
 # Frontegg-vue-with-admin-portal
-Implementation of (Frontegg's Hosted VueJS SDK)[https://docs.frontegg.com/docs/vue-hosted-login-guide]
+Implementation of [Frontegg's Hosted VueJS SDK](https://docs.frontegg.com/docs/vue-hosted-login-guide)
 
 ## Project setup
 ```
