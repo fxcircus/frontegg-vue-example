@@ -7,7 +7,7 @@ npm install
 ```
 Add your environment settings:
 ```
-// main.js
+// src/main.js
 contextOptions: {
     baseUrl: "baseUrl",     // Login URL from Frontegg Portal ➜ [ENVIRONMENT] ➜ Env Settings page
     clientId: 'clientId'    // Client ID from Frontegg Portal ➜ [ENVIRONMENT] ➜ Env Settings page
