@@ -5,12 +5,12 @@ Implementation of [Frontegg's Hosted VueJS SDK](https://docs.frontegg.com/docs/v
 ```
 npm install
 ```
-
+Add your environment settings:
 ```
 // main.js
 contextOptions: {
-    baseUrl: "baseUrl",
-    clientId: 'clientId'
+    baseUrl: "baseUrl",     // Login URL from Frontegg Portal ➜ [ENVIRONMENT] ➜ Env Settings page
+    clientId: 'clientId'    // Client ID from Frontegg Portal ➜ [ENVIRONMENT] ➜ Env Settings page
 }
 ```
 
