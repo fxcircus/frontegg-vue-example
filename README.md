@@ -5,7 +5,9 @@ Implementation of [Frontegg's Hosted VueJS SDK](https://docs.frontegg.com/docs/v
 ```
 npm install
 ```
-Add your environment settings:
+
+Navigate to **Frontegg Portal ➜ [ENVIRONMENT] ➜ Env Settings page**
+Add your environment settings to the code:
 ```
 // src/main.js
 contextOptions: {
@@ -14,8 +16,19 @@ contextOptions: {
 }
 ```
 
+Change **App URL** to-
+```
+http://localhost:8080
+```
 
-### Compiles and hot-reloads for development
+Navigate to **Frontegg Portal ➜ [ENVIRONMENT] ➜ Authentication ➜ Login Method**
+Add the following value to the list of URLs-
+```
+http://localhost:8080/oauth/callback
+```
+
+
+### Compile and run the server
 ```
 npm run serve
 ```
