@@ -21,7 +21,7 @@ Change `App URL` to-
 http://localhost:8080
 ```
 
-Navigate to `Frontegg Portal ➜ [ENVIRONMENT] ➜ Authentication ➜ Login Method`
+Navigate to `Frontegg Portal ➜ [ENVIRONMENT] ➜ Authentication ➜ Login Method`.
 Add the following value to the list of URLs-
 ```
 http://localhost:8080/oauth/callback
